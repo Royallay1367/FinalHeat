@@ -1,0 +1,33 @@
+rect.bordered {
+    stroke: #E6E6E6;
+    stroke-width:0px;
+}
+
+text.mono {
+    font-size: 11pt;
+    font-family: Consolas, courier;
+    fill: #aaa;
+}
+
+text.axis-Hair {
+    fill: #000;
+}
+
+text.axis-Eye {
+    fill: #000;
+}
+button {
+    color: rgba(127,255,255,0.75);
+    background: transparent;
+    outline: 1px solid rgba(127,255,255,0.75);
+    border: 0px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: rgba(0,255,255,0.5);
+}
+button:active {
+    color: #000000;
+    background-color: rgba(0,255,255,0.75);
+}
